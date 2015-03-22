@@ -22,7 +22,7 @@ Configure for COMxx:115200,8,n,1
 Type "W" to configure WiFi
 
 * SSID: xxx
-* Security: xxx
+* Security 0=unsecured, 1=WEP, 2=WPA, 3=WPA2: xxx
 * Password: xxx
 
 The RGB led should eventually start breathing cyan, which means the Core is connected.
