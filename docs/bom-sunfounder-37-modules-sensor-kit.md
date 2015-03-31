@@ -30,7 +30,7 @@
 |  1	| Microphone Sensor
 |  1	| High-sensitive Voice Sensor
 |  1	| Metal Touch Sensor
-|  1	| Flame Sensor	
+|  1	| Flame Sensor
 |  1	| Relay module
 |  1	| Joystick PS2
 |  1	| MQ-2 Gas Sensor
@@ -48,7 +48,7 @@
 |  40	| Jumper wires (male to female)
 |  20	| Jumper wires (male to male)
 |  1	| Project Book "Sensor kit for Arduino"
-|  -  | [Kit Homepage](http://www.sunfounder.com/index.php?c=show&id=9&model=37%20Sensor%20Kit)
+|  -  | [Kit Homepage](http://www.sunfounder.com/index.php?c=show&id=52&model=Sensor%20Kit)
 | - | [Tutorial](https://www.adrive.com/public/jJUJJF/sensorkit.zip)
 
 <!-- EOF -->
