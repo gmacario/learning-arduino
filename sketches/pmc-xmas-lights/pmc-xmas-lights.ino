@@ -25,7 +25,7 @@ void setup() {
 }
 
 static int bit_count = 0;
-byte var = 1;
+byte direction = 1;
 
 void loop() {
 #if 1
@@ -36,14 +36,14 @@ void loop() {
   digital_outputs.setAll(value);
   delay(100);
 
-  if (var == 1)
-    bit_count++;
-    if (bit_count == 7)
-      var = 0;
-  else
-    bit_count--;
-    if (bit_count == 0)
-      var = 1;
+  if (direction >= 1) {
+    if (++bit_count >= 7)
+      direction = 0;
+  }
+  else {
+    if (--bit_count <= 0)
+      direction = 1;
+  }
   
 #else
   Serial.println("DIGITAL OUT:");
