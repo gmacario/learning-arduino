@@ -38,8 +38,12 @@ void loop() {
 
   if (var == 1)
     bit_count++;
+    if (bit_count == 7)
+      var = 0;
   else
     bit_count--;
+    if (bit_count == 0)
+      var = 1;
   
 #else
   Serial.println("DIGITAL OUT:");
